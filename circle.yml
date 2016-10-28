@@ -1,3 +1,6 @@
+general:
+  build_dir: podam
+  
 test: 
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
